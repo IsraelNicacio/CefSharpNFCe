@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WS>
+    <!--Atualização 22/02/2019 baseado nas informações do site http://www.sped.fazenda.mg.gov.br/spedmg/nfce/web-services/-->
+    <!--Acre-->
+    <UF>
+        <sigla>AC</sigla>
+        <ConsultaWeb>www.sefaznet.ac.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Alagoas-->
+    <UF>
+        <sigla>AL</sigla>
+        <ConsultaWeb>www.sefaz.al.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Amapá-->
+    <UF>
+        <sigla>AP</sigla>
+        <ConsultaWeb>https://www.sefaz.ap.gov.br/sate/seg/SEGf_AcessarFuncao.jsp?cdFuncao=FIS_1261</ConsultaWeb>
+    </UF>
+    <!--Amazonas-->
+    <UF>
+        <sigla>AM</sigla>
+        <ConsultaWeb>http://www.sefaz.am.gov.br/nfce/formConsulta.do</ConsultaWeb>
+    </UF>
+    <!--Bahia-->
+    <UF>
+        <sigla>BA</sigla>
+        <ConsultaWeb>https://nfe.sefaz.ba.gov.br/servicos/nfce/Modulos/Geral/NFCEC_consulta_chave_acesso.aspx</ConsultaWeb>
+    </UF>
+    <!--Ceará-->
+    <UF>
+        <sigla>CE</sigla>
+        <ConsultaWeb>www.sefaz.ce.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Distrito Federal-->
+    <UF>
+        <sigla>DF</sigla>
+        <ConsultaWeb>www.fazenda.df.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Espírito Santo-->
+    <UF>
+        <sigla>ES</sigla>
+        <ConsultaWeb>www.sefaz.es.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Goiás-->
+    <UF>
+        <sigla>GO</sigla>
+        <ConsultaWeb>www.sefaz.go.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Maranhão-->
+    <UF>
+        <sigla>MA</sigla>
+        <ConsultaWeb>http://www.nfce.sefaz.ma.gov.br/portal/consultarnfce.jsp;jsessionid=Nx0BNaJBb2KpGfQiEiPOis6FGrlaZnj8iNWOkQ4y.sefaz-app-p01?dswid=-6137</ConsultaWeb>
+    </UF>
+    <!--Minas Gerais-->
+    <UF>
+        <sigla>MG</sigla>
+        <ConsultaWeb>nfce.fazenda.mg.gov.br/portalnfce/sistema/consultaarg.xhtml</ConsultaWeb>
+    </UF>
+    <!--Mato Grosso-->
+    <UF>
+        <sigla>MT</sigla>
+        <ConsultaWeb>www.sefaz.mt.gov.br/nfce/consultanfce</ConsultaWeb>
+    </UF>
+    <!--Mato Grosso do Sul-->
+    <UF>
+        <sigla>MS</sigla>
+        <ConsultaWeb>www.dfe.ms.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Pará-->
+    <UF>
+        <sigla>PA</sigla>
+        <ConsultaWeb>www.sefa.pa.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Paraíba-->
+    <UF>
+        <sigla>PB</sigla>
+        <ConsultaWeb>www.receita.pb.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Paraná-->
+    <UF>
+        <sigla>PR</sigla>
+        <ConsultaWeb>www.fazenda.pr.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Pernambuco-->
+    <UF>
+        <sigla>PE</sigla>
+        <ConsultaWeb>nfce.sefaz.pe.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Piauí-->
+    <UF>
+        <sigla>PI</sigla>
+        <ConsultaWeb>www.sefaz.pi.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Rio de Janeiro-->
+    <UF>
+        <sigla>RJ</sigla>
+        <ConsultaWeb>www.fazenda.rj.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Rio Grande do Norte-->
+    <UF>
+        <sigla>RN</sigla>
+        <ConsultaWeb>www.set.rn.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Rio Grande do Sul-->
+    <UF>
+        <sigla>RS</sigla>
+        <ConsultaWeb>www.sefaz.rs.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Rondônia-->
+    <UF>
+        <sigla>RO</sigla>
+        <ConsultaWeb>https://www.nfce.sefin.ro.gov.br/home.jsp</ConsultaWeb>
+    </UF>
+    <!--Roraima-->
+    <UF>
+        <sigla>RR</sigla>
+        <ConsultaWeb>www.sefaz.rr.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--São Paulo-->
+    <UF>
+        <sigla>SP</sigla>
+        <ConsultaWeb>https://www.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaPublica.aspx</ConsultaWeb>
+    </UF>
+    <!--Sergipe-->
+    <UF>
+        <sigla>SE</sigla>
+        <ConsultaWeb>www.nfce.se.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+    <!--Tocantins-->
+    <UF>
+        <sigla>TO</sigla>
+        <ConsultaWeb>www.sefaz.to.gov.br/nfce/consulta</ConsultaWeb>
+    </UF>
+</WS>

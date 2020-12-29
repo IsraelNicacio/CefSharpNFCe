@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{74D260F0-E09A-4F34-995F-704E75CDDA73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{2101DB1A-5139-4034-A4AE-6107AA90E45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CefSharp.RFB.NFCe.Xml", "src\app\CefSharp.RFB.NFCe.Xml\CefSharp.RFB.NFCe.Xml.csproj", "{6C25652F-8272-49B3-A95A-6F76C04FB23C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{3FC47ACA-5A24-4E09-9CD2-4BB7A23CF8A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFe", "src\service\NFe\NFe.csproj", "{3B32EAF3-C79B-4785-A1BA-815FAA9C3E51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C25652F-8272-49B3-A95A-6F76C04FB23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C25652F-8272-49B3-A95A-6F76C04FB23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C25652F-8272-49B3-A95A-6F76C04FB23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C25652F-8272-49B3-A95A-6F76C04FB23C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B32EAF3-C79B-4785-A1BA-815FAA9C3E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B32EAF3-C79B-4785-A1BA-815FAA9C3E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B32EAF3-C79B-4785-A1BA-815FAA9C3E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B32EAF3-C79B-4785-A1BA-815FAA9C3E51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2101DB1A-5139-4034-A4AE-6107AA90E45E} = {74D260F0-E09A-4F34-995F-704E75CDDA73}
+		{6C25652F-8272-49B3-A95A-6F76C04FB23C} = {2101DB1A-5139-4034-A4AE-6107AA90E45E}
+		{3FC47ACA-5A24-4E09-9CD2-4BB7A23CF8A5} = {74D260F0-E09A-4F34-995F-704E75CDDA73}
+		{3B32EAF3-C79B-4785-A1BA-815FAA9C3E51} = {3FC47ACA-5A24-4E09-9CD2-4BB7A23CF8A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECF100B7-A567-4028-B056-CF7698B5730F}
+	EndGlobalSection
+EndGlobal
