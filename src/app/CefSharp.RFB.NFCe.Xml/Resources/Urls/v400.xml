@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WS>
+  <!--Atualização 22/02/2019 baseado nas informações do site https://dfe-portal.sefazvirtual.rs.gov.br/Nfce#-->
+  <!-- Sefaz Amazonas - (AM) -->
+  <UF>
+    <sigla>AM</sigla>
+    <Consulta>https://nfce.sefaz.am.gov.br/nfce-services/services/NfeConsulta4</Consulta>
+  </UF>
+  <!-- Sefaz Goias - (GO) -->
+  <UF>
+    <sigla>GO</sigla>
+    <Consulta>https://nfe.sefaz.go.gov.br/nfe/services/NFeConsultaProtocolo4</Consulta>
+  </UF>
+  <!-- Sefaz Minas Gerais - (MG) -->
+  <UF>
+    <sigla>MG</sigla>
+    <Consulta>https://nfce.fazenda.mg.gov.br/nfce/services/NFeConsultaProtocolo4</Consulta>
+  </UF>
+  <!-- Sefaz Mato Grosso do Sul - (MS) -->
+  <UF>
+    <sigla>MS</sigla>
+    <Consulta>https://nfce.sefaz.ms.gov.br/ws/NFeConsultaProtocolo4</Consulta>
+  </UF>
+  <!-- Sefaz Mato Grosso - (MT) -->
+  <UF>
+    <sigla>MT</sigla>
+    <Consulta>https://nfce.sefaz.mt.gov.br/nfcews/services/NfeConsulta4</Consulta>
+  </UF>
+  <!-- Sefaz Paraná - (PR) -->
+  <UF>
+    <sigla>PR</sigla>
+    <Consulta>https://nfce.sefa.pr.gov.br/nfce/NFeConsultaProtocolo4</Consulta>
+  </UF>
+  <!-- Sefaz Rio Grande do Sul - (RS) -->
+  <UF>
+    <sigla>RS</sigla>
+    <Consulta>https://nfce.sefazrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx</Consulta>
+  </UF>
+  <!-- Sefaz São Paulo - (SP) -->
+  <UF>
+    <sigla>SP</sigla>
+    <Consulta>https://nfce.fazenda.sp.gov.br/ws/NFeConsultaProtocolo4.asmx</Consulta>
+  </UF>
+  <!-- Sefaz Virtual Rio Grande do Sul - (SVRS) -->
+  <UF>
+    <sigla>SVRS</sigla>
+    <Consulta>https://nfce.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx</Consulta>
+  </UF>
+</WS>

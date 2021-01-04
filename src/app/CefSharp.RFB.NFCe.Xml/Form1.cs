@@ -205,14 +205,17 @@ namespace CefSharp.RFB.NFCe.Xml
             NFe.Leiaute.consSitNFe consSitNFe = new NFe.Leiaute.consSitNFe();
             consSitNFe.tpAmb = 1;
             consSitNFe.chNFe = txtNFCeChave.Text;
+            xUF = IBGE.RetornaSiglaUF(cUF);
             consSitNFe.cUF = Convert.ToInt32(cUF);
+
+            string urlConsultaSituacao = Provedores.RetornarAutorizador(xUF);
 
             //Ceritificado
             X509Certificate2 certificado = null;
             certificado = NFe.Auxiliar.Certificado.RecuperarPorNome("");
 
             //Envia consulta da situação da NF-e
-            XmlElement xmlRetConsSitNFe = NFe.Autorizador.ConsultaProtocolo.ExecutarNFCe(consSitNFe, @"https://nfe.sefaz.go.gov.br/nfe/services/NFeConsultaProtocolo4",certificado) as XmlElement;
+            XmlElement xmlRetConsSitNFe = NFe.Autorizador.ConsultaProtocolo.ExecutarNFCe(consSitNFe, urlConsultaSituacao,certificado) as XmlElement;
 
             //Retorno 
             if (xmlRetConsSitNFe == null)
